@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #eeeeee;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    max-width: 400px;
+    padding: 40px 20px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #cecece;
+    transition: 0.5s;
+}
+
+h1{
+    font-family: Source Code Pro;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+input{
+    width:95%;
+    height: 60px;
+    border-radius: 10px;
+    border:1px solid #ccc;
+    margin-bottom: 15px;
+    margin-left: 1%;
+    padding-left: 20%;    
+}
+
+input:focus{
+    outline-color:#00c3ff;
+}
+
+.btn-blue{    
+    width:50%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    display: inline;
+    cursor: pointer;
+    background: #00c3ff;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    border:none;
+    transition: 0.5s ease;
+}
+
+.btn-blue:hover{
+    background:#288caa;
+}
+
+a{         
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #363636;
+}
+
+a:hover{
+    color: #00c3ff;
+}
+
+.link{
+    color: #00c3ff;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+
+.input-group{
+    width:90%;
+}
+
+.input-link{
+    display: flex;
+    justify-content: center;
+    width:90%;
+}
+
+.input-icon{
+    width:60px;
+    position: absolute;
+}
+
+input[type='checkbox']{
+    display: inline-block;
+    height: 20px;
+    width:5%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+label{ 
+    display: inline-block;
+    text-align: left;
+    width: 85%;
+    font-family: Arial;
+    font-size: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.erro-geral{
+    background:rgba(218, 15, 15, 0.856);
+    color: white;font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.erro-input{    
+    border: 1px solid rgba(218, 15, 15, 0.856);
+
+}
+
+.erro{
+    color:rgba(218, 15, 15, 0.856);
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.sucesso{
+    background:rgba(49, 218, 15, 0.856);
+    color: white;font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.oculto{
+    display: none;
+}
+
+.text-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    color: #4f5355;
+}
+
+.gmail-btn{
+   background: red;
+   color: white;
+   padding: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+   font-weight: bold;   
+}
+.gmail-btn:hover{
+    color: white;
+    transition: 0.5s ease;
+    background: rgb(185, 46, 46);
+}
+.outlook-btn{
+    background: rgb(101, 203, 243);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.outlook-btn:hover{
+    color: white;
+    transition: 0.5s ease;
+    background:rgb(31, 150, 197);
+}
+
+.restrita-body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    float: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #4f5355;
+}
+
+
+.restrita-container {
+    width: 50%;
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+    overflow: hidden;
+    float: center;
+    display: center;
+    color: #4f5355;
+}
+
+.p-restrita{
+    color: #363636;
+    float: left;
+    text-align: center;
+    font-family: Source Code Pro, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.sair-btn{
+    float: right;
+    display:center;
+    justify-content: center;
+    text-align: center;
+    background: red;
+    color: white;
+    padding: 20px;
+    width: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;   
+    margin-left: 15px;
+ }
+.sair-btn:hover{
+    color: white;
+    transition: 0.5s ease;
+    background: rgb(185, 46, 46);
+}
